@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule }   from '@angular/forms'; // <-- NgModel lives here
 
 import { AppComponent }  from './app.component';
+import { StrainOnlineComponent } from './strainOnline/strainOnline.component'
 
 @NgModule({
   imports: [
@@ -10,7 +11,8 @@ import { AppComponent }  from './app.component';
     FormsModule // <-- import the FormsModule before binding with [(ngModel)]
   ],
   declarations: [
-    AppComponent
+    AppComponent,
+    StrainOnlineComponent
   ],
   bootstrap: [ AppComponent ]
 })
